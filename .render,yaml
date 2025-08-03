@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: realtime-tracking-app
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npx nodemon
+    envVars:
+      - key: NODE_ENV
+        value: production
