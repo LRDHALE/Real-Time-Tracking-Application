@@ -1,1 +1,4 @@
-node_modules
+# Ignore all node_nodules
+node_modules/
+
+
